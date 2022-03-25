@@ -1,6 +1,6 @@
     function create() {
     let a = document.createElement('p');
-    a.textContent="12345678910;
+    a.textContent="12345678910";
     document.body.appendChild(a);
 }
     const button= document.querySelectorAll('#botao3');
