@@ -1,0 +1,9 @@
+passo a passo
+git config --global user.name "wesleiads"
+git config --global user.email "adspositivo2022@gmail.com"
+git remote add origin https://github.com/wesleiads/New-folder.git
+git add .
+git commit -m "Teste"
+Quando estiver Master => git branch –M main 
+git push -u origin main
+

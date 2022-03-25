@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Tópicos</title>
+</head>
+<h1 style="border: 1in;">Botões Java/HTML</h1>
+<body>
+    <button><a href="https://www.up.edu.br/" target="_blank">Clique em mim</a></button>
+</body>
+<script>
+    //O Javascript fica aqui
+    function criarParagrafo() {
+    let para = document.createElement('p');
+    para.textContent = 'Você clicou no botão!';
+    document.body.appendChild(para);
+}
+    const botao = document.querySelectorAll('button');
+    for(var i = 0; i < botao.length ; i++) {
+    botao[i].addEventListener('click', criarParagrafo);
+}
+     
+</script>
+
+<body>
+    <button style="color: rgb(153, 6, 6);">Clique em mim 2</button>
+</body>
+
+<script>
+    //Segundo botao 
+    function criapara() {
+    let a = document.createElement('p');
+    a.textContent= 'Você clicou no botão 2!';
+    document.body.appendChild(a);
+}
+    const botao2 = document.querySelectorAll('button');
+    for(var x= 1; x < botao1.length ; x++) {//alterado indice de i para X
+    botao2[x].addEventListener('click', criapara);
+}
+
+</script>    
+</html>
