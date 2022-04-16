@@ -1,0 +1,16 @@
+body{
+    
+    font-family: "Roboto";
+    color: #333;
+    padding: 1em /*24px*/ 0.875em /*14px*/ 1.5em/*24px*/ 32em;;
+    background-color: bisque;
+}
+h1{
+    text-align: left;
+    font-size:40px;
+    font-weight:bold;
+}
+.result{
+   
+    font-weight:bold;
+}

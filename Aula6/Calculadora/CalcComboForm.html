@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Weslei Barbosa">
+    <link rel="stylesheet" type="text/css" href="calc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"></head>
+
+    <title>Calculadora JS/CSS</title>
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <h2>Selecione a operação:
+        <select name="selopera" id="selopera">
+            <option value="Soma">Soma</option>
+            <option value="Multiplicacao">Multiplicação</option>
+            <option value="Subtracao">Subtracao</option>
+            <option value="Divisao">Divisão</option>
+        </select> </h2>
+        <input type="number" id="num1" placeholder="Primeiro Valor"></br></br>
+        <input type="number" id="num2" placeholder="Segundo Valor"></br></br>
+        <button onclick="calcular()">Calcular</button>
+        <p class='result'id="resultado" name="resultado">Resultado</p>
+        </body>
+    <script src="CalcComboForm.js"> </script>
+</html>
