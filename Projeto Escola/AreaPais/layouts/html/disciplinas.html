@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-disciplina.css">
+    <meta name="author" content="mbairo">
+    <title>Disciplinas</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header">
+                <div class="header__logo">
+                    <a href="index.html"><img class="header__logo" src="../../img/logo.png" alt="Logo do site"></a>
+                </div>
+
+                <h1 class="header__titulo">Área dos Pais</h1>
+            </div>
+            <div class="menu__header">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="agenda.html" class="nav__link">Agenda</a></li>
+                        <li><a href="disciplinas.html" class="nav__link">Disciplinas</a></li>
+                        <li><a href="frequencia.html" class="nav__link">Frequência e Boletins</a></li>
+                        <li><a href="financeiro.html" class="nav__link">Financeiro</a></li>
+                        <li><a href="comunicados.html" class="nav__link">Comunicados</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Fim do Header / Abas -->
+
+        <div class="img__background">
+
+            <div class="menu-disciplinas">
+                <div id="btn">
+                    <div id="cod">Cód: 550</div> <button onclick=setAlgebraConteudo()>Algebra</button><br><br>
+                    <div id="cod">Cód: 133</div> <button onclick=setEdFisicaConteudo()>Educação Física</button><br><br>
+                    <div id="cod">Cód: 770</div> <button onclick=setPortuguesConteudo()>Português</button><br><br>
+                    <div id="cod">Cód: 552</div> <button onclick=setMatematicaConteudo()>Matemática</button><br><br>
+                </div>
+            </div>
+
+            <div id="caixa-texto">
+                <h1 id="titulo-caixa">O que vamos estudar hoje?</h1>
+                <p id="conteudo-caixa">"Carpe diem. Aproveitem o dia, alunos. Façam
+                    suas vidas serem extraordinárias"</p>
+                <a id="link-material" href="#">Material</a>
+            </div>
+
+            <div id="rotulo">
+                <p id="text-rotulo"> Disciplinas <br> ofertadas</p>
+            </div>
+
+
+            <!-- Segunda parte da Página -->
+            <div id="rotulo-translucido">
+                <!-- translucido -->
+            </div>
+
+
+            <div class="menu-disciplinas-ofertadas">
+                <div id="btn">
+                     <button onclick=setEdFinanceiraConteudo()>Educação Financeira</button>       <div id="btn-matriculese" onclick="matricular()">Matricule-se</div><br><br>
+                     <button onclick=setLiteraturaClassicaConteudo()>Literatura Clássica</button> <div id="btn-matriculese" onclick="matricular()">Matricule-se</div><br><br>
+                </div>
+            </div>
+
+            <div id="caixa-texto-ofertadas">
+                <h1 id="titulo-caixa-ofertadas">Vá além e acrescente mais uma matéria!</h1>
+                <p id="conteudo-caixa-ofertadas">"Carpe diem. Aproveitem o dia, alunos. Façam
+                    suas vidas serem extraordinárias"
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>2022 - Curitiba-PR</footer> 
+</body>
+<script src="../js/disciplinas.js"></script>
+</html>

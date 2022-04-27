@@ -1,0 +1,284 @@
+*,*:after, *:before {
+    padding: 0;
+    margin: 0; 
+    border: 0; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}  
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container { 
+    max-width: 1128px; 
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    background-color: rgb(16, 119, 137);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: auto;
+    height: 150px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.header__logo {
+    margin-left:10px;
+    width: 130px;
+}
+
+.header__titulo {
+    display: flex;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+li {
+    list-style: none;
+}
+
+ul{
+    margin: 0px;
+    height: 100px;
+}
+
+.menu__header {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(47, 136, 151);
+}
+
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 0px;
+}
+
+.nav__link {
+    padding: 20px 10px;
+    font-size: 30px;
+    border: 2px solid rgb(230, 219, 219);
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu__header a {
+    text-decoration: none;
+    color: rgb(230, 219, 219);
+}
+
+.menu__header a:hover{
+    color: black;
+}
+/* ***Fim do header / abas*** */
+
+
+/* ***Imagem de fundo***  */
+.img__background {
+    position: relative;
+    background: url('../../img/childremDisciplinas.jpg');
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.calendar {
+    position: relative;
+    top: 30px;
+    margin-left: 315px;
+    width: 800px;
+    height: 553px; 
+    background-color: rgb(202, 242, 141);
+}
+
+
+/* ***Menu disciplinas atuais*** */
+.menu-disciplinas {
+    /* background-color: rgb(184, 171, 171); */
+    position: absolute;
+    top: 30px;
+    margin-left: 5px;
+}
+
+#cod {
+    font-size: 25px;
+    display: inline-block;
+    width: 110px;
+    text-align: center;
+    background-color: white;
+}
+
+.menu-disciplinas button {
+    font-size: 25px;
+}
+.menu-disciplinas button:hover{
+    text-decoration: underline rgb(16, 119, 137);
+}
+
+.menu-disciplinas #btn button {
+    margin-left: 15px;
+    font-size: 25px;
+    width: 250px;
+    background-color: white;
+}
+
+
+/* ***Caixa de informações sobre a disciplina*** */
+#caixa-texto {
+    color: white;
+    position: absolute;
+    top: 20px;
+    margin-left: 450px;
+    background-color: rgb(16, 119, 137);
+    padding: 30px;
+    max-width: 600px;
+    min-width: 500px;
+    max-height: 700px;
+    min-height: 200px;
+    border-radius: 20px;
+}
+
+#caixa-texto #titulo-caixa {
+    font-weight: lighter;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+#caixa-texto #conteudo-caixa {
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+#caixa-texto #link-material {
+    font-weight: lighter;
+    color:black;
+    margin-left: 400px;
+    border-radius: 50px;
+    font-size: 25px;
+    background-color: rgb(224, 224, 105);
+    padding: 6px;
+}
+
+
+/* ***Segunda parte da Página - Rótulo*** */
+#text-rotulo{
+    position: relative;
+    top: -115px;
+}
+
+#rotulo{
+    position: relative;
+    font-size: 40px;
+    top: 400px;
+        width: 300px;
+        height: 0;
+        border-top: 140px solid rgb(16, 119, 137);
+        border-right: 140px solid transparent;
+        background: rgba(16, 119, 137, 0.0);
+      }
+
+#rotulo-translucido{
+
+    margin-top: -140px;
+    margin-left: 180px;
+    font-size: 40px;
+    position: relative;
+    top: 400px;
+        /* width: 500px; */
+        max-width: auto; 
+        height: 0;
+        background: rgba(16, 119, 137, 0.0);
+        border-bottom: 140px solid rgba(16, 119, 137, 0.5);
+        border-left: 140px solid transparent;
+      }
+
+
+
+      
+/* ---------Ofertadas----------------- */
+
+.menu-disciplinas-ofertadas {
+    position: relative;
+    top: 425px;
+}
+
+.menu-disciplinas-ofertadas button {
+    font-size: 25px;
+}
+
+.menu-disciplinas-ofertadas button:hover{
+    text-decoration: underline rgb(92, 214, 92);
+}
+
+.menu-disciplinas-ofertadas #btn button {
+    text-align: left;
+    height: 35px;
+    font-size: 25px;
+    width: 410px;
+    background-color: rgb(16, 119, 137);
+    border-start-end-radius: 20px;
+}
+
+
+
+#btn-matriculese {
+    margin-left: -165px;
+    color: white;
+    font-weight: lighter;
+    font-size: 25px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    background-color: rgb(92, 214, 92);
+    border-radius: 20px;
+}
+
+/* Caixa texto */
+#caixa-texto-ofertadas {
+    color: white;
+    position: absolute;
+    top: 560px;
+    margin-left: 500px;
+    background-color:  rgb(16, 119, 137);
+    padding: 30px;
+    max-width: 600px;
+    min-width: 500px;
+    max-height: 700px;
+    min-height: 200px;
+    border-radius: 20px;
+}
+
+#caixa-texto-ofertadas #titulo-caixa-ofertadas{
+    font-weight: lighter;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+#caixa-texto-ofertadas #conteudo-caixa-ofertadas {
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
