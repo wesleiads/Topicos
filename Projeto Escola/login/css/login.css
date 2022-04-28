@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto';
+    background: url('/img/background.png');
+    background-size: 100%
+}
+
+.header__logo {
+    width: 100px;
+}
+
+.caixa {
+    margin-top: 35px;
+    border-top: 1px solid;
+    margin-left: 500px;
+    width: 350px;
+    height: 400px;
+    background-color: blacj;
+    border-radius: 20px;
+    border: 5px solid white;
+
+}
+
+.texto {
+    color: white;
+    /*line-height: 10px;*/
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.sign {
+    font-size: 25px;
+    font-style: italic;
+    border-radius: 20px;
+}
+
+.psw {
+    font-size: 25px;
+    font-style: italic;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.entrar {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 25px 5px 25px;
+    color: rgb(255, 255, 255);
+    border-radius: 22px;
+    background-color: green;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 59px;
+
+
+}
+
+h2 {
+    line-height: 2px;
+}
+
+.esqueci {
+    margin-top: 30px;
+}
+
+.forget {
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+}

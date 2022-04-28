@@ -126,9 +126,25 @@ a:hover{
 }
 
 /* menu agenda */
-.menu-agenda .titulo {
-    font-size: 20px;
-    background-color: whitesmoke;
+.pesquisa{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 220px;
+    text-align: center;
+    padding: 6px;
+    color: rgb(255, 255, 255);
+    border-radius: 22px;
+    background-color: green;
+    
+
+}
+.titulo {
+    font-size: 13px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 22px;
+    border: 1px solid white;
+    background-color: rgb(47, 136, 151);
 }
 
 .menu-agenda a{
@@ -143,11 +159,11 @@ a:hover{
 .menu-agenda {
     position: absolute;
     top: 30px;
-    margin-left: 5px;
+    margin-left: 1px;
     width: 300px;
     height: 100px;
     border-radius: 5px;
-    text-align: center;
+    text-align: left;
     
 }
 
